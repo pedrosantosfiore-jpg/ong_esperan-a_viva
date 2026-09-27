@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Cadastre-se para participar dos projetos da ONG Esperança Viva.">
+
+    <title>Cadastro | Esperança Viva</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="container header-content">
+
+            <a href="index.html" class="logo">
+
+                <span class="logo-icon">♥</span>
+
+                <span>Esperança Viva</span>
+
+            </a>
+
+            <nav>
+
+                <a href="index.html">
+                    Início
+                </a>
+
+                <a href="projetos.html">
+                    Projetos
+                </a>
+
+                <a href="cadastro.html">
+                    Cadastro
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <section class="page-title">
+
+            <div class="container">
+
+                <span>FAÇA PARTE</span>
+
+                <h1>
+                    Cadastro
+                </h1>
+
+                <p>
+                    Cadastre-se para participar das
+                    nossas ações sociais.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <section class="section">
+
+            <div class="container">
+
+                <div class="form-box">
+
+                    <h2>
+                        Formulário de participação
+                    </h2>
+
+                    <p class="form-description">
+                        Preencha seus dados abaixo.
+                        Os campos marcados com * são obrigatórios.
+                    </p>
+
+
+                    <form id="formulario">
+
+
+                        <!-- DADOS PESSOAIS -->
+
+                        <fieldset>
+
+                            <legend>
+                                Dados pessoais
+                            </legend>
+
+
+                            <div class="form-grid">
+
+                                <div class="field full">
+
+                                    <label for="nome">
+                                        Nome completo *
+                                    </label>
+
+                                    <input
+                                        type="text"
+                                        id="nome"
+                                        name="nome"
+                                        placeholder="Digite seu nome completo"
+                                        minlength="5"
+                                        required>
+
+                                </div>
+
+
+                                <div class="field">
+
+                                    <label for="email">
+                                        E-mail *
+                                    </label>
+
+                                    <input
+                                        type="email"
+                                        id="email"
+                                        name="email"
+                                        placeholder="seu@email.com"
+                                        required>
+
+                                </div>
+
+
+                                <div class="field">
+
+                                    <label for="cpf">
+                                        CPF *
+                                    </label>
+
+                                    <input
+                                        type="text"
+                                        id="cpf"
+                                        name="cpf"
+                                        placeholder="000.000.000-00"
+                                        maxlength="14"
+                                        inputmode="numeric"
+                                        required>
+
+                                </div>
+
+
+                                <div class="field">
+
+                                    <label for="telefone">
+                                        Telefone *
+                                    </label>
+
+                                    <input
+                                        type="tel"
+                                        id="telefone"
+                                        name="telefone"
+                                        placeholder="(11) 99999-9999"
+                                        maxlength="15"
+                                        inputmode="tel"
+                                        required>
+
+                                </div>
+
+
+                                <div class="field">
+
+                                    <label for="nascimento">
+                                        Data de nascimento *
+                                    </label>
+
+                                    <input
+                                        type="date"
+                                        id="nascimento"
+                                        name="nascimento"
+                                        required>
+
+                                </div>
+
+                            </div>
+
+                        </fieldset>
+
+
+                        <!-- ENDEREÇO -->
+
+                        <fieldset>
+
+                            <legend>
+                                Endereço
+                            </legend>
+
+
+                            <div class="form-grid">
+
+                                <div class="field">
+
+                                    <label for="cep">
+                                        CEP *
+                                    </label>
+
+                                    <input
+                                        type="text"
+                                        id="cep"
+                                        name="cep"
+                                        placeholder="00000-000"
+                                        maxlength="9"
+                                        inputmode="numeric"
+                                        required>
+
+                                </div>
+
+
+                                <div class="field">
+
+                                    <label for="cidade">
+                                        Cidade *
+                                    </label>
+
+                                    <input
+                                        type="text"
+                                        id="cidade"
+                                        name="cidade"
+                                        placeholder="Sua cidade"
+                                        required>
+
+                                </div>
+
+
+                                <div class="field">
+
+                                    <label for="estado">
+                                        Estado *
+                                    </label>
+
+                                    <select
+                                        id="estado"
+                                        name="estado"
+                                        required>
+
+                                        <option value="">
+                                            Selecione
+                                        </option>
+
+                                        <option>AC</option>
+                                        <option>AL</option>
+                                        <option>AP</option>
+                                        <option>AM</option>
+                                        <option>BA</option>
+                                        <option>CE</option>
+                                        <option>DF</option>
+                                        <option>ES</option>
+                                        <option>GO</option>
+                                        <option>MA</option>
+                                        <option>MT</option>
+                                        <option>MS</option>
+                                        <option>MG</option>
+                                        <option>PA</option>
+                                        <option>PB</option>
+                                        <option>PR</option>
+                                        <option>PE</option>
+                                        <option>PI</option>
+                                        <option>RJ</option>
+                                        <option>RN</option>
+                                        <option>RS</option>
+                                        <option>RO</option>
+                                        <option>RR</option>
+                                        <option>SC</option>
+                                        <option>SP</option>
+                                        <option>SE</option>
+                                        <option>TO</option>
+
+                                    </select>
+
+                                </div>
+
+
+                                <div class="field full">
+
+                                    <label for="endereco">
+                                        Endereço *
+                                    </label>
+
+                                    <input
+                                        type="text"
+                                        id="endereco"
+                                        name="endereco"
+                                        placeholder="Rua, número e complemento"
+                                        required>
+
+                                </div>
+
+                            </div>
+
+                        </fieldset>
+
+
+                        <!-- PARTICIPAÇÃO -->
+
+                        <fieldset>
+
+                            <legend>
+                                Participação
+                            </legend>
+
+
+                            <div class="form-grid">
+
+                                <div class="field">
+
+                                    <label for="participacao">
+                                        Como deseja participar? *
+                                    </label>
+
+                                    <select
+                                        id="participacao"
+                                        name="participacao"
+                                        required>
+
+                                        <option value="">
+                                            Selecione
+                                        </option>
+
+                                        <option value="voluntario">
+                                            Voluntário
+                                        </option>
+
+                                        <option value="doador">
+                                            Doador
+                                        </option>
+
+                                        <option value="apoiador">
+                                            Apoiador
+                                        </option>
+
+                                    </select>
+
+                                </div>
+
+
+                                <div class="field">
+
+                                    <label for="area">
+                                        Área de interesse
+                                    </label>
+
+                                    <select id="area">
+
+                                        <option value="">
+                                            Selecione
+                                        </option>
+
+                                        <option>
+                                            Educação
+                                        </option>
+
+                                        <option>
+                                            Comunicação
+                                        </option>
+
+                                        <option>
+                                            Eventos
+                                        </option>
+
+                                        <option>
+                                            Assistência social
+                                        </option>
+
+                                    </select>
+
+                                </div>
+
+
+                                <div class="field full">
+
+                                    <label for="mensagem">
+                                        Conte um pouco sobre você
+                                    </label>
+
+                                    <textarea
+                                        id="mensagem"
+                                        rows="5"
+                                        placeholder="Digite sua mensagem..."></textarea>
+
+                                </div>
+
+                            </div>
+
+                        </fieldset>
+
+
+                        <div class="checkbox">
+
+                            <input
+                                type="checkbox"
+                                id="termos"
+                                required>
+
+                            <label for="termos">
+                                Concordo em receber informações
+                                sobre as atividades da ONG. *
+                            </label>
+
+                        </div>
+
+
+                        <button
+                            type="submit"
+                            class="button primary submit">
+
+                            Enviar cadastro
+
+                        </button>
+
+
+                        <div
+                            id="form-message"
+                            class="form-message">
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+
+        <div class="container footer-grid">
+
+            <div>
+
+                <h2>♥ Esperança Viva</h2>
+
+                <p>
+                    Transformando vidas através da
+                    solidariedade.
+                </p>
+
+            </div>
+
+            <div>
+
+                <h3>Contato</h3>
+
+                <p>📍 Rua da Solidariedade, 100</p>
+
+                <p>📞 (11) 99999-9999</p>
+
+                <p>✉️ contato@esperancaviva.org</p>
+
+            </div>
+
+            <div>
+
+                <h3>Menu</h3>
+
+                <a href="index.html">Início</a>
+
+                <a href="projetos.html">Projetos</a>
+
+            </div>
+
+        </div>
+
+
+        <div class="copyright">
+
+            <p>
+                © <span id="ano"></span> Esperança Viva.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
